@@ -1,13 +1,22 @@
 {
     "env": {
         "browser": true,
-        "es2021": true
+        "es2021": true,
+        "jest": true
     },
     "extends": [
         "plugin:react/recommended",
         "standard-with-typescript"
     ],
     "overrides": [
+        {
+            "files": ["*.ts", "*.tsx"],
+            "rules": {
+                "@typescript-eslint/explicit-function-return-type": [
+                    "off"
+                ]
+            }
+        }
     ],
     "parserOptions": {
         "ecmaVersion": "latest",
@@ -18,5 +27,10 @@
         "react"
     ],
     "rules": {
+    },
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
     }
 }
