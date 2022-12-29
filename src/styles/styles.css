@@ -1,2 +1,16 @@
-.element {
-  color: #39CDCC; }
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login-page {
+  width: 100vw;
+  height: 100vh;
+  border: solid #39cdcc 1px;
+  display: flex;
+}
+
+.login-button {
+  background-color: #39cdcc;
+}

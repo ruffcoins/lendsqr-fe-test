@@ -1,6 +1,18 @@
 $primary-color: #39CDCC;
 $secondary-color: #213F7D;
 
-.element {
-  color: $primary-color;
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login-page {
+  width: 100vw;
+  height: 100vh;
+  border: solid $primary-color 1px;
+  display: flex;
+}
+.login-button {
+  background-color: $primary-color;
 }
