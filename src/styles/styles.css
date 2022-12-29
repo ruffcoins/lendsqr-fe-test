@@ -1,16 +1,26 @@
 body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 .login-page {
   width: 100vw;
   height: 100vh;
-  border: solid #39cdcc 1px;
-  display: flex;
-}
+  display: flex; }
+  .login-page .login-left-side {
+    width: 50vw;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column; }
+    .login-page .login-left-side .logo {
+      margin-top: 100px;
+      width: 200px; }
+    .login-page .login-left-side .pablo {
+      margin-top: 150px;
+      width: 100%; }
+  .login-page .login-right-side {
+    width: 50vw;
+    box-shadow: -1px 0px 30px 1px #EDEDED; }
 
 .login-button {
-  background-color: #39cdcc;
-}
+  background-color: #39CDCC; }
